@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eeeeee;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+.active{
+  background-color: #d39f12;
+}
+
+.active a{
+  color: #fff;
+}
+
+.navbar {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f1f1f;
+}
+
+.nav-logo p {
+  margin: 0;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-category {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 30px;
+  color: #1f1f1f;
+}
+
+.nav-links {
+  list-style-type: none;
+  font-size: 16px;
+  padding: 13px;
+  color: #1f1f1f;
+  transition: all 0.3s ease;
+}
+
+.nav-links:hover {
+  background-color: #cfad3b;
+  color: #fff;
+}
+
+.container-content h2 {
+  text-align: center;
+  color: #1f1f1f;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container-tab {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7);
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+td,
+th {
+  padding: 20px 20px;
+  text-align: center;
+}
+th {
+  background-color: #d35f12;
+  color: #fafafa;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+tr {
+  width: 100%;
+  background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+}
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.btn-reservar{
+    border: none;
+    background-color: #c5750dd2;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.btn-reservar:hover{
+    background-color: #c5750dd2;
+    cursor: pointer;
+}
+
+.container-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-text h2, p{
+    margin: 0;
+}
+
+.container-text h2{
+  margin-bottom: 10px;
+}
+
+.bottom-text{
+  padding: 30px;
+  text-align: center;
+  background-color: #e78617;
+  color: #fff;
+  font-weight: bold;
+}
